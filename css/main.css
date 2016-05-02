@@ -15,5 +15,68 @@
 }
 /* estilos section (aurea)*/
 .background-orange{
-	
+	background-color: #EC4336;
+	color: white;
+	padding: 3% 0% 3% 0%;
+	font-family: Open Sanz;
+}
+.background-orange h2{
+	font-size: 35px;
+	text-align: center;
+}
+.background-orange p{
+	text-align: center;
+}
+.caja{
+	border-left: 3px solid white;
+	padding: 0px 0px 10px 10px;
+}
+.background-blue{
+	background-color: #515D83;
+	color: white;
+	padding: 3% 0% 3% 0%;
+	font-family: Open Sanz;
+}
+.background-blue ul{
+	padding-left: 0%;	
+}
+.background-blue li{
+	list-style: none; 
+}
+.background-blue p{
+	font-size: 16px;
+}
+.background-blue a{
+	color: white;
+	text-decoration: none;
+}
+.background-blue a:hover{
+	color: #A7A0CD;
+}
+.background-blue input{
+	border-radius: 5px;
+	color: #A4A4A4;
+}
+footer{
+	background-color: #3A4361;
+	color: white;
+	padding: 2% 0% 2% 0%;
+	font-family: Open Sanz;
+}
+footer ol{
+	text-align: right;
+}
+footer li{
+	display: inline-block;
+	margin-right: 10px;
+	text-align: right;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: #A7A0CD;
+}
+ footer i{
+	font-size: 20px;
 }

@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/ico/favicon.ico">
@@ -22,7 +22,7 @@
     <section class="background-orange">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-12">
                     <h2>
                         What our client say
                     </h2>
@@ -32,21 +32,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="caja">
-                        <h5>
+                        <h4>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                        </h5>
+                        </h4>
                         <h6>
                             -Someone famous in Source Title
                         </h6>
                     </div>
                 </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-12">
                     <div class="caja">
-                        <h5>
+                        <h4>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                        </h5>
+                        </h4>
                         <h6>
                             -Someone famous in Source Title
                         </h6>
@@ -54,21 +54,21 @@
                 </div>
             </div>
             <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-12">
                     <div class="caja">
-                        <h5>
+                        <h4>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                        </h5>
+                        </h4>
                         <h6>
                             -Someone famous in Source Title
                         </h6>
                     </div>
                 </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-12">
                     <div class="caja">
-                        <h5>
+                        <h4>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                        </h5>
+                        </h4>
                         <h6>
                             -Someone famous in Source Title
                         </h6>
@@ -80,7 +80,7 @@
     <section class="background-blue">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-12">
                     <h3>
                         About Us
                     </h3>
@@ -91,11 +91,11 @@
                         Pellentesque habitant morbi tristique senectus.
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-12">
                     <h3>
                         Company
                     </h3>
-                    <ol>
+                    <ul>
                         <a href="">
                             <li>
                                 > Company Overview
@@ -140,41 +140,53 @@
                                 > Copyright
                             </li>
                         </a>
-                    </ol>
+                    </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-12">
                     <h3>
                         Latest Blog
                     </h3>
-                    <div class="blog">
-                         <img src="images/blog/avatar.jpg">
-                         <p>
-                             Pellentesque Habitant morbi tristique senectus
-                         </p>
-                         <font size="1">
-                            Posted 17 Aug 2013
-                         </font>
+                    <div>
+                        <div class="media-left">
+                            <img class="media-object" src="images/blog/avatar.jpg">
+                        </div>
+                        <div class="media-body">
+                             <p>
+                                 Pellentesque Habitant morbi tristique senectus
+                                 <p>
+                                     Posted 17 Aug 2013
+                                 </p>
+                             </p>
+                        </div>
                     </div>
-                    <div class="blog">
-                         <img src="images/blog/thumb2.jpg">
-                         <p>
-                             Pellentesque Habitant morbi tristique senectus
-                         </p>
-                         <font size="1">
-                            Posted 17 Aug 2013
-                         </font>
+                    <div>
+                        <div class="media-left">
+                            <img class="media-object" src="images/blog/thumb2.jpg">
+                        </div>
+                        <div class="media-body">
+                             <p>
+                                 Pellentesque Habitant morbi tristique senectus
+                                 <p>
+                                     Posted 17 Aug 2013
+                                 </p>
+                             </p>
+                        </div>
                     </div>
-                    <div class="blog">
-                         <img src="images/blog/thumb3.jpg">
-                         <p>
-                             Pellentesque Habitant morbi tristique senectus
-                         </p>
-                         <font size="1">
-                            Posted 17 Aug 2013
-                         </font>
+                    <div>
+                        <div class="media-left">
+                            <img class="media-object" src="images/blog/thumb3.jpg">
+                        </div>
+                        <div class="media-body">
+                             <p>
+                                 Pellentesque Habitant morbi tristique senectus
+                                 <p>
+                                     Posted 17 Aug 2013
+                                 </p>
+                             </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-12">
                     <h3>
                         Adress
                     </h3>
@@ -183,13 +195,17 @@
                     </h5>
                     <p>
                         795 Folsom Ave, Suite 600
+                    </p>
+                    <p>
                         San Francisco, CA 94107
+                    </p>
+                    <p>
                         P: (123) 456-7890
                     </p>
                     <h3>
                         Newsletter
                     </h3>
-                    <input class="form-control" type="search" value="Enter Your Email">
+                        <input type="search" value="Enter Your Email">
                     <a href="">
                         <button type="button" class="btn btn-danger">
                             Go!
@@ -202,12 +218,12 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <h5>
                         &#169; 2013 ShapeBootstrap. All Rights Reserved.
                     </h5>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <ol>
                         <a href="">
                             <li>
