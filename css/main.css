@@ -19,8 +19,19 @@
 }
 
 /*COMIENZO DE HEADER*/
+.hamburger{
+	display: none;
+	background-color: #1D0202;
+	border: 1px solid blue;
+	width: 20px;
+	height: 20px;
+	color: white;
+	float: right;
+}
+
 .header{
 	background-color: #3B3F51;
+	padding: 2%;
 }
 
 .logo-heart{
@@ -67,17 +78,15 @@
 /*FIN SECCION IMAGEN DE FONDO*/
 
 /*COMIENZO ICONOS REDES SOCIALES*/
-.fondo-celeste {
-	background-color: #1DD578;
+.background-green {
+	background-color: #0DD16E;
+	padding: 50px;
 }
 
 .twitter{
 	font-size: 35px;
 	color: white;
-	-khtml-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	-
 }
 
 .facebook{
@@ -99,6 +108,12 @@
 	padding: 80px;
 }
 
+.background-white{
+	border: 5px;
+	background-color: white;
+	margin: 10px;
+}
+
 input {
 	color: white;
 	background-color: #EC4336;
@@ -106,3 +121,15 @@ input {
 
 
 /*FIN SECCION 3 IMAGENES*/
+
+
+/*COMIENZO RESPONSIVE*/
+@media (min-width: 768px) {
+	.hamburger{
+		display: block;
+	}
+	.menu {
+		display: none;
+	}
+	
+}
