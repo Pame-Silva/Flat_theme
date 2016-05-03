@@ -75,6 +75,13 @@ header{
 	display: inline-block;
 	padding-top: 5px;
 }
+.iconos a{
+	color: white;
+}
+.iconos a:hover{
+	font-weight: bold;
+	font-size: 18px;
+}
 #background-facebook{
 	background-color: #5E69DD;
 }
@@ -87,6 +94,7 @@ header{
 #background-linkedin{
 	background-color: #3286B7;
 }
+/*Background blue*/
 .background-blue{
 	background-color: #515D83;
 	color: white;
@@ -100,7 +108,7 @@ header{
 	list-style: none; 
 }
 .background-blue p{
-	font-size: 16px;
+	font-size: 12px;
 }
 .background-blue a{
 	color: white;
