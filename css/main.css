@@ -13,3 +13,134 @@
 .clearfix:after {
   clear: both;
 }
+
+* {
+	font-family: Open Sans;
+}
+
+/*COMIENZO DE HEADER*/
+.hamburger{
+	display: none;
+	background-color: #1D0202;
+	border: 1px solid blue;
+	width: 20px;
+	height: 20px;
+	color: white;
+	float: right;
+}
+
+header{
+	background-color: #3B3F51;
+	padding: 2%;
+}
+
+.logo-heart{
+	padding-left: 20px;
+}
+
+.menun ul{
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.menu li{
+	display: inline-block;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.menu a{
+	color: #E6C8C8;
+}
+
+.menu a:hover{
+	background-color: #0A414B;
+	padding: 10px;
+	text-decoration: none;
+}
+/*FIN SECCION HEADER*/
+
+/*COMIENZO SECCION IMAGEN DE FONDO*/
+.imagen{
+	background-image: url(../images/slider/bg1.jpg);
+	max-width: 100%;
+	height: 500px;
+	color: white;
+	background-size: cover;
+	text-align: left;
+	padding-left: 80px;
+	padding-top: 200px;
+}
+
+/*FIN SECCION IMAGEN DE FONDO*/
+
+/*COMIENZO ICONOS REDES SOCIALES*/
+.background-green {
+	background-color: #6FC176;
+	padding: 50px;
+}
+
+.twitter{
+	font-size: 30px;
+	color: white;
+}
+
+.facebook{
+	font-size: 30px;
+	color: white;
+}
+
+.google{
+	font-size: 30px;
+	color: white;
+}
+
+.container-icon{
+	background-color: #52745D;
+	border-radius: 50%;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+/*FIN SECCION ICONOS REDES SOCIALES*/
+
+/*COMIENZO SECCION 3 IMAGENES*/
+.Latest-Project{
+	background-color: #DED8D8;
+	padding: 50px;
+}
+.background-white img{
+	width: 100%;
+}
+
+.background-white p{
+	font-size: 12px;
+}
+
+.background-white{
+	border: 12px solid #B2ACAC;
+	background-color: white;
+	margin: 10px;
+	padding-left: 10px;	
+}
+
+.danger{
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+/*FIN SECCION 3 IMAGENES*/
+
+
+
+
+
+/*COMIENZO RESPONSIVE*/
+
+
+/*FIN RESPONSIVE*/
