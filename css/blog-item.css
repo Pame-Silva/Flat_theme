@@ -55,45 +55,6 @@
 .background-green a:hover{
 	color: white;
 }
-/* section*/
-.our-skills{
-	font-family: Open Sans;
-}
-.alineador{
-	text-align: center;
-	padding: 3% 0% 3% 0%;
-	font-family: Open Sans;
-}
-.alineador h1{
-	font-weight: bold;
-}
-.iconos{
-	color: white;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	display: inline-block;
-	padding-top: 5px;
-}
-.iconos a{
-	color: white;
-}
-.iconos a:hover{
-	font-weight: bold;
-	font-size: 18px;
-}
-#background-facebook{
-	background-color: #5E69DD;
-}
-#background-google{
-	background-color: #DC4F4F;
-}
-#background-twiter{
-	background-color: #81D5E5;
-}
-#background-linkedin{
-	background-color: #3286B7;
-}
 /*Background blue*/
 .background-blue{
 	background-color: #515D83;
