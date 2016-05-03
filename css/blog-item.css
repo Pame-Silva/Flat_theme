@@ -1,5 +1,8 @@
 /*header*/
-.header{
+*{
+	font-family: Open Sans;
+}
+header{
 	background-color: #3B3F51;
 	padding: 3%;
 }
@@ -35,7 +38,6 @@
 .background-green{
 	background-color: #6FC17C;
 	color: White;
-	font-family: Open Sans;
 	padding: 3% 3% 3% 3%;
 }
 .background-green ul{
@@ -54,13 +56,74 @@
 }
 .background-green a:hover{
 	color: white;
+	font-weight: bold;
+}
+/*desde aqui se trabaja */
+.blog-item{
+	background-color: #ded8d8;
+	padding: 3% 0% 3% 0%;
+}
+.blog-item input{
+	width: 80%;
+	color: #A4A4A4;
+	height: 30px;
+}
+.fondo-blanco{
+	background-color: white;
+}
+.busqueda{
+	margin-bottom: 5%;
+}
+.caja-img .col-md-6 {
+	padding-left: 0%;
+}
+.blog-item h2{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.chat{
+	background-color: #D5D5D5;
+	padding: 2%;
+}
+.chat i{
+	float: right;
+	font-size: 15px;
+}
+.respuesta{
+	padding-left: 10%;
+	margin: 3% 0% 3% 0%;
+}
+.button-list button{
+	font-size: 9px;
+	margin-bottom: 5px;
+}
+.blog-item li{
+	list-style: none;
+}
+.blog-item ol a{
+	text-decoration: none;
+	color: black;
+}
+.blog-item ol a:hover{
+	text-decoration: none;
+	color: #A7A0CD;
+	font-weight: bolder;
+}
+.datos input{
+	width: 42%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+.comment{
+	width: 90% !important;
+	height: 150px !important;
+	margin-bottom: 3%;
 }
 /*Background blue*/
 .background-blue{
 	background-color: #515D83;
 	color: white;
 	padding: 3% 3% 3% 3%;
-	font-family: Open Sanz;
 }
 .background-blue ul{
 	padding-left: 0%;	
@@ -83,11 +146,10 @@
 	color: #A4A4A4;
 }
 /*footer*/
-.footer{
+footer{
 	background-color: #3B3F51;
 	color: white;
-	padding: 2% 3% 2% 3%;
-	font-family: Open Sanz;
+	padding: 2% 0% 2% 0%;
 }
 footer ol{
 	text-align: right;
@@ -99,10 +161,13 @@ footer li{
 }
 footer a{
 	color: white;
+	text-decoration: none;
 }
 footer a:hover{
 	color: #A7A0CD;
+	font-weight: bolder; 
+	text-decoration: none;
 }
- footer i{
+footer i{
 	font-size: 20px;
 }
