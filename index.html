@@ -25,30 +25,59 @@
     <!-- COMIENZO DE HEADER -->
     <header>
         <div class="container header">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
+            <!--div class="row">
+                <div class="col-md-6 col-sm-12">
                     <img class="logo-heart" src="images/logo.png">
                 </div>
-                <div class="col-md-6 col-sm-6 menu">
+                <div class="col-md-6 col-sm-12 menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
-            </div>
+            </div -->
         </div>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img class="logo-heart" src="images/logo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact">Contact</a></li>
+                
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
     </header>
     <!-- FIN SECCION HEADER -->
 
     <!-- COMIENZO SECCION IMAGEN DE FONDO -->
-    <section>
+    <section class="imagen">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 imagen">
+                <div class="col-md-12 col-sm-12">
                     <h1>Powerful and Responsive Web Design</h1>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
@@ -58,28 +87,34 @@
     <!-- FIN SECCION IMAGEN DE FONDO -->
 
     <!-- COMIENZO ICONOS REDES SOCIALES -->
-    <section>
+    <section class="background-green">
         <div class="container">
-            <div class="row background-green">
-                <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
                     <div class="media-left">
-                        <i class="fa fa-twitter twitter" aria-hidden="true"></i>
+                        <div class="container-icon">
+                            <i class="fa fa-twitter twitter" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="media-body">
                         <h3 style="color:white;">Twitter Marketing</h3><p style="color:white;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="media-left">
-                        <i class="fa fa-facebook facebook" aria-hidden="true"></i>
+                        <div class="container-icon">
+                            <i class="fa fa-facebook facebook" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="media-body">
                         <h3 style="color:white;">Facebook Marketing</h3><p style="color:white;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="media-left">
-                        <i class="fa fa-google-plus google" aria-hidden="true"></i>
+                        <div class="container-icon">
+                            <i class="fa fa-google-plus google" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="media-body">
                         <h3 style="color:white;">Google Plus Marketing</h3><p style="color:white;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
@@ -91,30 +126,30 @@
     <!-- FIN SECCION ICONOS REDES SOCIALES -->
 
     <!-- COMIENZO SECCION 3 IMAGENES -->
-    <section>
+    <section class="Latest-Project">
         <div class="container">
-            <div class="row Latest-Project">
-                <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
                     <h3>Our Latest Project</h3>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <input type="button" value="<"></input>
-                    <input type="button" value=">"></input>
+                        <button type="button" class=btn-"danger"><</button>
+                        <button type="button" class=btn-"danger"><</button>
                 </div>
-                <div class="col-md-3">
-                    <img src="images/portfolio/recent/item1.png">
+                <div class="col-md-3 col-sm-12">
                     <div class="background-white">
+                        <img src="images/portfolio/recent/item1.png">
                         <p>Nova - Corporate site template</p>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="images/portfolio/recent/item3.png">
+                <div class="col-md-3 col-sm-12">
                     <div class="background-white">
+                        <img src="images/portfolio/recent/item3.png">
                         <p>Fornax - Apps site template</p>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="images/portfolio/recent/item2.png">
+                <div class="col-md-3 col-sm-12">
                     <div class="background-white">
+                        <img src="images/portfolio/recent/item2.png">
                         <p>Flat Theme - Business Theme</p>
                     </div>
                 </div>
@@ -122,7 +157,6 @@
         </div>
     </section>
     <!-- FIN SECCION 3 IMAGENES -- >
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
