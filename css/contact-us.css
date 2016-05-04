@@ -39,15 +39,16 @@ header{
 	padding: 3%;
 }
 .contact h3{
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 }
 .contact input{
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 	width: 300px;
 	color: #A2A2A2;
 }
 .text input{
 	height: 200px;
+	margin-top: 5%;
 }
 .contact frame{
 	width: 100%;
