@@ -1,8 +1,4 @@
 /*header*/
-.header{
-	background-color: #3B3F51;
-	padding: 3%;
-}
 
 .logo-heart{
 	padding-left: 20px;
@@ -122,7 +118,7 @@
 	color: #A4A4A4;
 }
 /*footer*/
-.footer{
+footer{
 	background-color: #3B3F51;
 	color: white;
 	padding: 2% 3% 2% 3%;
