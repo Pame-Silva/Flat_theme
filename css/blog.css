@@ -1,77 +1,18 @@
-<<<<<<< HEAD
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
-.clearfix {
-  *zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.clearfix:after {
-  clear: both;
-}
-
-* {
-=======
 /*header*/
 *{
->>>>>>> 9194a5076220141e39cd4e8e90c77263b1d52ac0
 	font-family: Open Sans;
-}
-/*COMIENZO DE HEADER*/
-.hamburger{
-	display: none;
-	background-color: #1D0202;
-	border: 1px solid blue;
-	width: 20px;
-	height: 20px;
-	color: white;
-	float: right;
-}
-
-.header{
-	background-color: #3B3F51;
-	padding: 2%;
 }
 
 .logo-heart{
 	padding-left: 20px;
 }
 
-.menun ul{
-	font-size: 12px;
-	text-decoration: none;
-}
-
-.menu li{
-	display: inline-block;
-	font-size: 12px;
-	color: white;
-	text-decoration: none;
-	padding: 10px;
-}
-
-.menu a{
-	color: #E6C8C8;
-}
-
-.menu a:hover{
-	background-color: #0A414B;
-	padding: 10px;
-	text-decoration: none;
-}
-/*FIN SECCION HEADER*/
-
-/*COMIENZO BARRA COLOR VERDE*/
+/*termino header*/
 .background-green{
 	background-color: #6FC17C;
 	color: White;
-	font-family: Open Sans;
-	padding: 3% 0% 3% 0%;
+	padding: 3% 3% 3% 3%;
 }
 .background-green ul{
 	list-style: none;
@@ -89,69 +30,29 @@
 }
 .background-green a:hover{
 	color: white;
-<<<<<<< HEAD
-=======
 	font-weight: bold;
 }
 /*desde aqui se trabaja */
-.small-icons{
-	display: inline-block;
-	margin: 2px;
-}
-.small-icons p{
-	display: inline-block;
-	margin: 2px;
-	padding: 2px;
-}
-
-input{
-	margin: 10px;
-	width: 100px;
-	background-color: #D59C9C;
-}
-
-.pagination {
-	margin-left: 100px;
-}
-
-.busqueda{
-	margin-bottom: 5%;
-}
-.caja-img .col-md-6 {
-	padding-left: 0%;
-}
-.blog-item h2{
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.button-list button{
-	font-size: 9px;
-	margin-bottom: 5px;
-}
-.blog-item li{
-	list-style: none;
-}
-.blog-item ol a{
-	text-decoration: none;
-	color: black;
-}
-.blog-item ol a:hover{
-	text-decoration: none;
-	color: #A7A0CD;
-	font-weight: bolder;
-}
-
-.blog-item{
+.blog{
 	background-color: #ded8d8;
 	padding: 3% 0% 3% 0%;
 }
-.blog-item input{
+.blog input{
 	width: 80%;
 	color: #A4A4A4;
 	height: 30px;
 }
+.blog button{
+	margin-bottom: 3%;
+}
+.blog input{
+	margin-bottom: 5%;
+}
 .fondo-blanco{
 	background-color: white;
+}
+.small-icons{
+	display: inline-block;
 }
 .busqueda{
 	margin-bottom: 5%;
@@ -159,49 +60,26 @@ input{
 .caja-img .col-md-6 {
 	padding-left: 0%;
 }
-.blog-item h2{
+.blog h3{
 	margin-top: 5%;
 	margin-bottom: 5%;
-}
-.chat{
-	background-color: #D5D5D5;
-	padding: 2%;
-}
-.chat i{
-	float: right;
-	font-size: 15px;
-}
-.respuesta{
-	padding-left: 10%;
-	margin: 3% 0% 3% 0%;
 }
 .button-list button{
 	font-size: 9px;
 	margin-bottom: 5px;
 }
-.blog-item li{
+.blog li{
 	list-style: none;
 }
-.blog-item ol a{
+.blogol a{
 	text-decoration: none;
 	color: black;
 }
-.blog-item ol a:hover{
+.blog ol a:hover{
 	text-decoration: none;
 	color: #A7A0CD;
 	font-weight: bolder;
 }
-.datos input{
-	width: 42%;
-	margin-right: 5%;
-	margin-bottom: 3%;
-}
-.comment{
-	width: 90% !important;
-	height: 150px !important;
-	margin-bottom: 3%;
-}
-
 /*Background blue*/
 .background-blue{
 	background-color: #515D83;
@@ -250,6 +128,7 @@ footer a:hover{
 	color: #A7A0CD;
 	font-weight: bolder; 
 	text-decoration: none;
->>>>>>> 9194a5076220141e39cd4e8e90c77263b1d52ac0
 }
-/*FIN BARRA COLOR VERDE*/
+footer i{
+	font-size: 20px;
+}
