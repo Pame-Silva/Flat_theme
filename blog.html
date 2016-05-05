@@ -26,23 +26,33 @@
     <!-- header-->
      <!-- COMIENZO DE HEADER -->
     <header>
-        <div class="container header">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <img class="logo-heart" src="images/logo.png">
-                </div>
-                <div class="col-md-6 col-sm-6 menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact">Contact</a></li>
-                    </ul>
-                </div>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img class="logo-heart" src="images/logo.png"></a>
             </div>
-        </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
     </header>
     <!-- FIN SECCION HEADER -->
 
@@ -68,125 +78,137 @@
     <section class="blog">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 fondo-blanco">
+                <div class="col-md-8 col-sm-12 fondo-blanco">
                     <img class="img-rounded" src="images/blog/blog1.jpg" width="100%">
+                    <div class="small-icons">
+                        <p><i class="fa fa-user" aria-hidden="true"></i>John</p>
+                    </div>
+                    <div class="small-icons">
+                        <p><i class="fa fa-folder-open-o" aria-hidden="true"></i>Bootstrap</p>
+                    </div>
+                    <div class="small-icons">
+                        <p><i class="fa fa-calendar" aria-hidden="true"></i>Sept 16th, 2012</p>
+                    </div>
+                    <div class="small-icons">
+                        <p><i class="fa fa-comment" aria-hidden="true"></i>3 Comments</p>
+                    </div>
                     <h3>Duis sed odio sit amet nibh vulputate cusrus</h3>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a omare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <div class="small-icons">
-                    <p><i class="fa fa-user" aria-hidden="true"></i>John</p>
-                </div>
-                <div class="small-icons">
-                    <p><i class="fa fa-folder-open-o" aria-hidden="true"></i>Bootstrap</p>
-                </div>
-                <div class="small-icons">
-                    <p><i class="fa fa-calendar" aria-hidden="true"></i>Sept 16th, 2012</p>
-                </div>
-                <div class="small-icons">
-                    <p><i class="fa fa-comment" aria-hidden="true"></i>3 Comments</p>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- SEGUNDA IMAGEN -->
-    <section class="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 fondo-blanco">
+                    <button class="btn btn-default" type="submit">Read More ></button>
                     <img class="img-rounded" src="images/blog/blog2.jpg" width="100%">
-                    <h3>Conubia nostra per inceptos himenaeos</h3>
                     <div class="small-icons">
-                    <p><i class="fa fa-user" aria-hidden="true"></i>John</p>
-                </div>
-                <div class="small-icons">
-                    <p><i class="fa fa-folder-open-o" aria-hidden="true"></i>Bootstrap</p>
-                </div>
-                <div class="small-icons">
-                    <p><i class="fa fa-calendar" aria-hidden="true"></i>Sept 16th, 2012</p>
-                </div>
-                <div class="small-icons">
-                    <p><i class="fa fa-comment" aria-hidden="true"></i>3 Comments</p>
-                </div>
+                        <p><i class="fa fa-user" aria-hidden="true"></i>John</p>
+                    </div>
+                    <div class="small-icons">
+                        <p><i class="fa fa-folder-open-o" aria-hidden="true"></i>Bootstrap</p>
+                    </div>
+                    <div class="small-icons">
+                        <p><i class="fa fa-calendar" aria-hidden="true"></i>Sept 16th, 2012</p>
+                    </div>
+                    <div class="small-icons">
+                        <p><i class="fa fa-comment" aria-hidden="true"></i>3 Comments</p>
+                    </div>
+                    <h3>Conubia nostra per inceptos himenaeos</h3>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a omare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <button class="btn btn-default" type="submit">Read More ></button>
+                </div>
+                 <div class="col-md-4 col-sm-12">
+                    <div class="busqueda">
+                        <input type="search" value="search">
+                            <a href="">
+                                <button type="button" class="btn btn-danger">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </a>
+                            <div class="caja-img">
+                            <div class="col-md-6">
+                                <img class="img-rounded" src="images/ads/ad1.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-rounded" src="images/ads/ad2.png">
+                            </div>
+                        </div>
+                        <div class="caja-img">
+                            <div class="col-md-6">
+                                <img class="img-rounded" src="images/ads/ad3.png">
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-rounded separacion" src="images/ads/ad4.png">
+                            </div>
+                        </div>
+
+            
+                        <h3>
+                            Blog Categories
+                        </h3>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="">> Development</a></li>
+                                <li><a href="">> Design</a></li>
+                                <li><a href="">> Updates</a></li>
+                                <li><a href="">> Tutorial</a></li>
+                                <li><a href="">> New</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="">> Joomla</a></li>
+                                <li><a href="">> Wordpress</a></li>
+                                <li><a href="">> Drupal</a></li>
+                                <li><a href="">> Magneto</a></li>
+                                <li><a href="">> Bootstrap</a></li>
+                            </ul>
+                        </div>
+                        <h3>
+                            Tag Cloud
+                        </h3>
+                        <div class="button-list">
+                            <button type="button" class="btn btn-primary">CSS3</button>
+                            <button type="button" class="btn btn-primary">HTML5</button>
+                            <button type="button" class="btn btn-primary">WoordPress</button>
+                            <button type="button" class="btn btn-primary">Joomla</button>
+                            <button type="button" class="btn btn-primary">Drupal</button>
+                            <button type="button" class="btn btn-primary">Bootstrap</button>
+                            <button type="button" class="btn btn-primary">JQuery</button>
+                            <button type="button" class="btn btn-primary">Tutorial</button>
+                            <button type="button" class="btn btn-primary">Update</button>
+                        </div>
+                        <h3>
+                            Facebook Fanpage
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- FIN -->
-
-    <div class="col-md-4">
-        <div class="busqueda">
-            <input type="search" value="search">
-            <a href="">
-                <button type="button" class="btn btn-danger">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-            </a>
-        
-                    <h2>
-                        Blog Categories
-                    </h2>
-                    <div class="col-md-6">
-                        <ul>
-                            <li><a href="">> Development</a></li>
-                            <li><a href="">> Design</a></li>
-                            <li><a href="">> Updates</a></li>
-                            <li><a href="">> Tutorial</a></li>
-                            <li><a href="">> New</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul>
-                            <li><a href="">> Joomla</a></li>
-                            <li><a href="">> Wordpress</a></li>
-                            <li><a href="">> Drupal</a></li>
-                            <li><a href="">> Magneto</a></li>
-                            <li><a href="">> Bootstrap</a></li>
-                        </ul>
-                    </div>
-                    <h2>
-                        Tag Cloud
-                    </h2>
-                    <div class="button-list">
-                        <button type="button" class="btn btn-primary">CSS3</button>
-                        <button type="button" class="btn btn-primary">HTML5</button>
-                        <button type="button" class="btn btn-primary">WoordPress</button>
-                        <button type="button" class="btn btn-primary">Joomla</button>
-                        <button type="button" class="btn btn-primary">Drupal</button>
-                        <button type="button" class="btn btn-primary">Bootstrap</button>
-                        <button type="button" class="btn btn-primary">JQuery</button>
-                        <button type="button" class="btn btn-primary">Tutorial</button>
-                        <button type="button" class="btn btn-primary">Update</button>
-                    </div>
-                    <h2>
-                        Facebook Fanpage
-                    </h2>
+    <!-- BARRA DE NUMEROS -->
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <nav>
+                      <ul class="pagination">
+                        <li>
+                          <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                          <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
     </section>
-    <!-- BARRA DE NUMEROS -->
-    <nav>
-      <ul class="pagination">
-        <li>
-          <a href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li>
-          <a href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
 
     <!--Desde aqui se repite CAJA AZU Y FOOTER -->
     <section class="background-blue">
